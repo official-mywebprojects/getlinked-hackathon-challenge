@@ -1,0 +1,147 @@
+.sponsors_holder_ct{
+    max-width: 900px;
+  position: relative;
+  height: auto;
+  margin: var(--margin-ct-md);
+  border-radius: var(--border-xsm);
+  background: var(--background-prp);
+}
+
+.section_inner_ct{
+    position: relative;
+    width: 80%;
+    margin: var(--margin-ct-none);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_right1_ct{
+    position: relative;
+    width: 30%;
+    height: auto;
+    padding: 0;
+}
+
+.inner{
+    display: grid;
+    padding: 40px;
+    box-shadow: 0 10px 10px var(--dark);
+}
+
+
+.blur_ct{
+    position: absolute;
+    top: 0;
+  left: -150;
+  opacity: 0.5;
+}
+
+.blur_ct1{
+    position: absolute;
+    bottom: 0;
+  right: -137;
+  opacity: 0.5;
+  transform: scale(-1);
+}
+
+span.accent_ct{
+    color: var(--purple--accent);
+    line-height: 45px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+p{
+    font-size: 13px;
+  font-weight: lighter;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: var(--light);
+}
+
+.section_left_ct{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin-top: 0;
+    padding: 70px;
+}
+
+.inputs{
+    width: 100%;
+    margin: var(--margin-ct-none);
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--light);
+    border-radius: var(--border-xsm);
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+input[type="text"]:first-child{
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--light);
+    border-radius: var(--border-xsm);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+textarea[type="text"]{
+    width: 100%;
+    height: 130px;
+    border: 1px solid var(--light);
+    border-radius: var(--border-xsm);
+    margin-bottom: 8px;
+    background: transparent;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea[type="text"]::placeholder{
+    color: var(--light);
+    padding: 8px 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea[type="text"]:focus{
+    color: var(--purple--accent);
+    border: 1px solid var(--purple--accent);
+    outline: none;
+}
+
+input[type="text"]:focus-visible,
+input[type="email"]:focus-visible,
+textarea[type="text"]:focus-visible{
+    color: var(--purple--accent);
+    border: 1px solid var(--purple--accent);
+    outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+
+}
+
+@media screen and (min-width: 649px) and (max-width: 900px){
+    
+    span.accent_ct{
+        color: var(--purple--accent);
+        line-height: 45px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    span.accent_two_ct{
+        color: var(--purple--accent);
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
